@@ -17,13 +17,7 @@ function Header() {
                 </div>
     
     
-                <div className='hidden md:flex'>
-                    <button className='flex justify-between items-center  bg-transparent  px-6 gap-2'>
-                        <img src="" />
-                        <p className='text-xl font-semibold text-white'> Login</p>
-                    </button>
-                    <button className='px-8 py-3 rounded-md bg-[#20B486] text-white font-bold'>Sign Up For Free</button>
-                </div>
+            
     
                 <div className='md:hidden'  >
                         <img src="" />
@@ -34,22 +28,7 @@ function Header() {
     
             </div>
     
-            <div className={'absolute z-10 p-4  bg-white w-full px-8 md:hidden border-b'}>
-                <ul>
-                        <li className='p-4 hover:bg-gray-100'>Home</li>
-                        <li className='p-4 hover:bg-gray-100'>About</li>
-                        <li className='p-4 hover:bg-gray-100'>Support</li>
-                        <li className='p-4 hover:bg-gray-100'>Platform</li>
-                        <li className='p-4 hover:bg-gray-100'>Pricing</li>
-                        <div className='flex flex-col my-4 gap-4'>
-                            <button className='border border-[20B486] flex justify-center items-center  bg-transparent  px-6 gap-2 py-4'>
-                             <img src="" />
-                             Login
-                            </button>
-                            <button className='px-8 py-5 rounded-md bg-[#20B486] text-white font-bold'>Sign Up For Free</button>
-                        </div>
-                </ul>
-            </div>
+
             
             
         </div>
